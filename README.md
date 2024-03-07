@@ -5,7 +5,7 @@
 
 - 👨‍💻 All of my projects are available at [repositories](https://github.com/bbolton1?tab=repositories)
 
-- 📫 How to reach me **bbolton1@una.edu**
+- 📫 How to reach me bbolton1@una.edu
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
