@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently learning **Windows Active Directory**
 
-- 👨‍💻 All of my projects are available at [https://github.com/bbolton1](https://github.com/bbolton1?tab=repositories)
+- 👨‍💻 All of my projects are available at [repositories](https://github.com/bbolton1?tab=repositories)
 
 - 📫 How to reach me **bbolton1@una.edu**
 
