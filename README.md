@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Brayden Bolton</h1>
-<h3 align="center">A student at UNA currently pursuing a degree in IT with a concentration in cybersecurity</h3>
+<h3 align="center">I am currently a student at UNA pursuing a bachelor's degree in IT with a concentration in cybersecurity</h3>
 
 - 🌱 I’m currently learning **Windows Active Directory**
 
