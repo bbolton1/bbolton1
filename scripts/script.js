@@ -27,7 +27,7 @@ function displayResults() {
         const finalMessage = "I am proficient in using Google Cloud services, Windows Active Directory, and a myriad of programming languages." +
         "These languages are as follows: Python, C++, Java, JavaScript, and MySQL." +
         "The coding language I am best at properly utilizing is Python. I also have experience in creating diagrams through Lucid Charts." +
-        "If you have any questions, please let me know at bbolton1@una.edu . Thank you for visiting my page";
+        "If you have any questions, please let me know at bbolton1@una.edu . Thank you for visiting my page.";
                 
         const message = document.createTextNode(finalMessage);
       
