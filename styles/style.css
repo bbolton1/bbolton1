@@ -10,6 +10,7 @@ h4 {
 .mt-5 {
     position: absolute;
     bottom: 0em;
+    right: 30em;
 }
 
 body {
@@ -30,12 +31,6 @@ body {
 h1 {
     text-align: center;
     color: yellow;
-}
-
-label {  /* instructions */
-    display: block;
-    margin-bottom: 10px;
-    color: orange;
 }
 
 input[type="text"] {
