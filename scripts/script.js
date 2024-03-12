@@ -15,7 +15,7 @@ function displayResults() {
 
     else if (answer === "Personal info"){
         const finalMessage = "My name is Brayden Bolton and I am an undergraduate IT student at UNA. I am from Russellville, Alabama." +
-        "I plan to focus on work involving cybersecurity and systems analysis. I recently (3/12/2024) turned 20 ";
+        "I plan to focus on working in cybersecurity and systems analysis oriented fields. I recently turned 20";
 
         const message = document.createTextNode(finalMessage);
    
