@@ -1,3 +1,4 @@
+
 function displayResults() {
     const answer = document.getElementById('answer').value;
     const output = document.getElementById('output');
@@ -26,10 +27,10 @@ function displayResults() {
 
     else if (answer === "Links"){ // outputs links
         const links = [
-        {text: "Github Repositories", url: "https://example.com/link1"},
-        {text: "Codepen", url: "https://example.com/link2"},
-        {text: "Alpha", url: "https://example.com/link3"},
-        {text: "Bravo", url: "https://example.com/link3"},
+        {text: "Github Repositories", url: "https://github.com/bbolton1?tab=repositories"},
+        {text: "Codepen", url: "https://codepen.io/bbolton1"},
+        {text: "Alpha", url: "https://codepen.io/bbolton1/pen/mdoBqgd"},
+        {text: "Bravo", url: "https://codepen.io/bbolton1/pen/poYaPya"},
         {text: "Charlie", url: "https://github.com/bbolton1/CIS376-Charlie-Brayden"},
         {text: "Delta", url: "https://github.com/bbolton1/delta-lab-brayden"},
         {text: "Echo", url: "https://github.com/bbolton1/brayden-cis376-echo"},
@@ -40,7 +41,8 @@ function displayResults() {
         // Loops through each link and creates an anchor element to expedite the process
         links.forEach(link => {
         const anch = document.createElement('a');
-        anch.href = link.url;
+        anch.href = link.url; // puts the actual link in the href
+        anch.target = "_blank" // opens a new tab for each link
         anch.className = 'btn btn-secondary m-2';
         anch.textContent = link.text;
         output.appendChild(anch);
@@ -49,4 +51,14 @@ function displayResults() {
 
     }
 
+}
+
+function changeBackground (){
+    document.getElementById('bright').addEventListener('click', function() {
+        document.body.style.backgroundColor = "lightblue";
+  });
+  
+    document.getElementById('dark').addEventListener('click', function() {
+        document.body.style.backgroundColor = 'darkblue';
+  });
 }
