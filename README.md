@@ -7,6 +7,8 @@
 
 - 📫 How to reach me bbolton1@una.edu
 
+- 📄 Know about my experiences CodeAcademy: Learn HTML, CSS, JavaScript, and How to Make a Website with NameCheap
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://codepen.io/bbolton1" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="bbolton1" height="30" width="40" /></a>
