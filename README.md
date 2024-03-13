@@ -7,7 +7,7 @@
 
 - 📫 How to reach me bbolton1@una.edu
 
-- 📄 Know about my experiences CodeAcademy: Learn HTML, CSS, JavaScript, and How to Make a Website with NameCheap
+- 📄 External web dev learning. CodeAcademy: Learn HTML, CSS, JavaScript, and How to Make a Website with NameCheap
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
