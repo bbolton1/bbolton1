@@ -1,8 +1,9 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 .mt-5 {
-    position: absolute;
+    position: flex;
     bottom: 0em;
-    right: 50%;
-    text-align: center;
+    justify-content: flex-end;
 }
 
 body {
@@ -12,12 +13,16 @@ body {
 }
 
 .container {
-    max-width: 700px;
-    margin: 60px auto;
+    max-width: 800px;
+    margin: 40px auto;
     padding: 20px;
-    background-color: orange;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+
+#mainbox {
+    position: relative;
+    background-color: orange;
 }
 
 #output {
@@ -32,6 +37,10 @@ h1 {
 
 h4 {
     text-align: center;
+}
+
+.icons i {
+    cursor: pointer;
 }
 
 input[type="text"] {
@@ -60,21 +69,25 @@ button:hover {
     font-weight: bold;
 }
 
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
 footer {  /* name and class information */
     color: red;
+    font-size: 20px;
 }
 
 img {
-    /* width: ; */
     height: 35rem; 
 }
 
-.pictext {
+.pic {
     position: relative;
-    left: 50%;
-  }
-  .pictext > img,
-  .overlay-text {
+    left: 85%;
+}
+.pic > img,
+.pic-text {
     color: lightsalmon;
     position: absolute;
-  }
+}
