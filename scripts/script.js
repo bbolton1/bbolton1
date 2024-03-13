@@ -4,7 +4,7 @@ function displayResults() {
 
     if (answer === "Personal info"){
         const finalMessage = "My name is Brayden Bolton and I am an undergraduate IT student at UNA. I am from Russellville, Alabama." +
-        "I plan to focus on work involving cybersecurity and systems analysis. I recently (3/12/2024) turned 20 ";
+        "I plan to focus on work involving cybersecurity and systems analysis. I am currently 20 years old. ";
 
         const message = document.createTextNode(finalMessage);
     
@@ -12,7 +12,7 @@ function displayResults() {
         output.appendChild(message);
     }
 
-    else if (answer === "Capabilities"){
+    else if (answer === "Capabilities"){  // gives a short rundown of what I can do
         const finalMessage = "I am proficient in using Google Cloud services, Windows Active Directory, and a myriad of programming languages." +
         "These languages are as follows: Python, C++, Java, JavaScript, and MySQL." +
         "The coding language I am best at properly utilizing is Python. I also have experience in creating diagrams through Lucid Charts." +
@@ -24,26 +24,26 @@ function displayResults() {
         output.appendChild(message);
     }
 
-    else if (answer === "Links"){
+    else if (answer === "Links"){ // outputs links
         const links = [
         {text: "Github Repositories", url: "https://example.com/link1"},
         {text: "Codepen", url: "https://example.com/link2"},
         {text: "Alpha", url: "https://example.com/link3"},
         {text: "Bravo", url: "https://example.com/link3"},
-        {text: "Charlie", url: "https://example.com/link3"},
-        {text: "Delta", url: "https://example.com/link3"},
-        {text: "Echo", url: "https://example.com/link3"},
+        {text: "Charlie", url: "https://github.com/bbolton1/CIS376-Charlie-Brayden"},
+        {text: "Delta", url: "https://github.com/bbolton1/delta-lab-brayden"},
+        {text: "Echo", url: "https://github.com/bbolton1/brayden-cis376-echo"},
         ];
 
         output.innerHTML = ''; // Clear any previous content
 
-        // Loops through each link and creates an anchor element to automate the process
+        // Loops through each link and creates an anchor element to expedite the process
         links.forEach(link => {
-        const anchor = document.createElement('a');
-        anchor.href = link.url;
-        anchor.className = 'btn btn-secondary m-2';
-        anchor.textContent = link.text;
-        output.appendChild(anchor);
+        const anch = document.createElement('a');
+        anch.href = link.url;
+        anch.className = 'btn btn-secondary m-2';
+        anch.textContent = link.text;
+        output.appendChild(anch);
         });
 
 
