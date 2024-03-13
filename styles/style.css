@@ -1,7 +1,8 @@
 .mt-5 {
     position: absolute;
     bottom: 0em;
-    right: 62.9rem;
+    right: 50%;
+    text-align: center;
 }
 
 body {
@@ -21,12 +22,12 @@ body {
 
 #output {
     color:purple;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 h1 {
     text-align: center;
-    color: yellow;
+    color: lightcoral;
 }
 
 h4 {
@@ -38,7 +39,7 @@ input[type="text"] {
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 button { /* submit button */
@@ -63,3 +64,17 @@ footer {  /* name and class information */
     color: red;
 }
 
+img {
+    /* width: ; */
+    height: 35rem; 
+}
+
+.pictext {
+    position: relative;
+    left: 50%;
+  }
+  .pictext > img,
+  .overlay-text {
+    color: lightsalmon;
+    position: absolute;
+  }
