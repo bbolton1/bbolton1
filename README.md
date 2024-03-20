@@ -4,6 +4,7 @@
 - 🌱 I’m currently learning **Windows Active Directory**
 
 - 👨‍💻 All of my projects are available at [repositories](https://github.com/bbolton1?tab=repositories)
+- Foxtrot (personal page) - https://bbolton1.github.io/brayden-foxtrot-cis376/ 
 
 - 📫 How to reach me bbolton1@una.edu
 
