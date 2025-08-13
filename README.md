@@ -8,7 +8,7 @@
   
 - Foxtrot (personal page) - [https://bbolton1.github.io/brayden-foxtrot-cis376/ ](https://github.com/bbolton1/brayden-foxtrot-cis376)
 
-- 📫 How to reach me bbolton1@una.edu
+- 📫 How to reach me brayden6716@gmail.com
 
 - 📄 External web dev learning. CodeAcademy: Learn HTML, CSS, JavaScript, and How to Make a Website with NameCheap
 
