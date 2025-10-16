@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Brayden Bolton</h1>
-<h3 align="center">I am a UNA graduate with a bachelor's in IT and a minor in cybersecurity. I am currently working on my homelab (OPNsense in particular) and hope to broaden my knowledge as much as possible!</h3>
-<h4 align="center">Most of my repos are classwork but I hope you enjoy my spin on them!</h4>
+<h3 align="center">I am a UNA graduate with a bachelor's in IT and a minor in cybersecurity. I am currently working on my homelab (The ELK stack in particular) and hope to broaden my knowledge as much as possible!</h3>
 
-- 🌱 I’m currently learning **nmap**
+
+- 🌱 I’m currently learning **Elasticsearch**
 
 - 👨‍💻 All of my projects are available at [repositories](https://github.com/bbolton1?tab=repositories)
   
